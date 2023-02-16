@@ -24,12 +24,12 @@ const IconsImg = styled.div`
 const Title = styled.h3`
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 800;
-  font-size: 28px;
+  font-weight:bold;
+  font-size: 44px;
   line-height: 28px;
 
   /* identical to box height */
-  margin: 50px 0;
+  margin: 60px 0;
   text-align: center;
   letter-spacing: -0.025em;
   margin-top: 100px;

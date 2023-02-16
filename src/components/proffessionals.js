@@ -19,13 +19,13 @@ const Title = styled.h3`
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 44px;
   line-height: 30px;
   text-align: center;
   letter-spacing: -0.025em;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   color: #000000;
-  margin-top: 30px;
+  margin-top: 60px;
 `;
 
 const Para = styled.p`

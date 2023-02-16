@@ -65,13 +65,14 @@ const Title = styled.h3`
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
-  font-size: 28px;
+  font-size: 44px;
   line-height: 28px;
 
   /* identical to box height */
   text-align: center;
   letter-spacing: -0.025em;
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   color: #000000;
 `;
 
