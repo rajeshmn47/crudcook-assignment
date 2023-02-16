@@ -56,7 +56,11 @@ export default function Proffessionals() {
         <Grid item md={4} style={{ display: "flex", justifyContent: "center" }}>
           <Card>
             <TopIcon src="./circle.png" alt="" />
-            <Rating name="simple-controlled" value={5} />
+            <Rating
+              name="simple-controlled"
+              value={5}
+              style={{ marginTop: "15px" }}
+            />
             <Para>
               Synccos helped me utilize my service company from the beginning
               till the end, from onboarding new clients until invoicing them.
@@ -66,7 +70,11 @@ export default function Proffessionals() {
         <Grid item md={4} style={{ display: "flex", justifyContent: "center" }}>
           <Card>
             <TopIcon src="./circle.png" alt="" />
-            <Rating name="simple-controlled" value={5} />
+            <Rating
+              name="simple-controlled"
+              value={5}
+              style={{ marginTop: "15px" }}
+            />
             <Para>
               Integrating with 3rd software was very easy, the customer service
               from Synccos was a breeze.
@@ -76,7 +84,11 @@ export default function Proffessionals() {
         <Grid item md={4} style={{ display: "flex", justifyContent: "center" }}>
           <Card>
             <TopIcon src="./circle.png" alt="" />
-            <Rating name="simple-controlled" value={5} />
+            <Rating
+              name="simple-controlled"
+              value={5}
+              style={{ marginTop: "15px" }}
+            />
             <Para>
               The Synccos VoIP system helps me to never lose a potential client,
               keep track on any missed call.

@@ -107,7 +107,7 @@ const Price = styled.h3`
   line-height: 47px;
   text-align: center;
   letter-spacing: -0.035em;
-margin:50px 0;
+  margin: 50px 0;
   color: #3e3e3e;
 `;
 
@@ -159,19 +159,17 @@ const GetStartedBtn = styled.button`
   border-radius: 10px;
 `;
 
-const Sdetail=styled.p`
-font-family: 'Poppins';
-font-style: italic;
-font-weight: 500;
-font-size: 11.5769px;
-line-height: 32px;
-text-align: center;
-letter-spacing: -0.025em;
+const Sdetail = styled.p`
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 11.5769px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.025em;
 
-color: #000000;
-
-
-`
+  color: #000000;
+`;
 export default function Plans() {
   return (
     <>
@@ -292,9 +290,7 @@ export default function Plans() {
             </Grid>
           </Grid>
           <GetStartedBtn>Get Started</GetStartedBtn>
-          <Sdetail>
-          Not Sure? Get in touch with a specialist 
-          </Sdetail>
+          <Sdetail>Not Sure? Get in touch with a specialist</Sdetail>
         </Work>
       </WorkContainer>
     </>
