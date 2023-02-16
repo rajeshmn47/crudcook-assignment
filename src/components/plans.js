@@ -69,10 +69,9 @@ const Title = styled.h3`
   line-height: 28px;
 
   /* identical to box height */
-  margin: 50px 0;
   text-align: center;
   letter-spacing: -0.025em;
-  margin-top: 100px;
+  margin-top: 50px;
   color: #000000;
 `;
 
@@ -108,7 +107,7 @@ const Price = styled.h3`
   line-height: 47px;
   text-align: center;
   letter-spacing: -0.035em;
-
+margin:50px 0;
   color: #3e3e3e;
 `;
 
@@ -227,7 +226,7 @@ export default function Plans() {
                 <TopIcon src="./toptwo.png" alt="" />
 
                 <Data>
-                  <Title>SaaS</Title>
+                  <Title>VoIP</Title>
                   <Price>$1,399</Price>
                   <Item>
                     <Rightmark src="./rightmark.svg" alt="" />
@@ -278,7 +277,7 @@ export default function Plans() {
                 <TopIcon src="./toptwo.png" alt="" />
 
                 <Data>
-                  <Title>SaaS</Title>
+                  <Title>SaaS + VoIP</Title>
                   <Price>$1,399</Price>
                   <Item>
                     <Rightmark src="./rightmark.svg" alt="" />
