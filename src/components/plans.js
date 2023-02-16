@@ -46,6 +46,9 @@ const Data = styled.div`
   padding: 10px 25px;
   min-height: 130px;
   height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const Para = styled.p`
@@ -110,6 +113,7 @@ const Price = styled.h3`
   letter-spacing: -0.035em;
   margin: 50px 0;
   color: #3e3e3e;
+  margin-top: 0;
 `;
 
 const Item = styled.div`
@@ -124,7 +128,8 @@ const ItemDetail = styled.p`
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-
+  flex: 4;
+  text-align: left;
   /* identical to box height */
   letter-spacing: -0.025em;
 
@@ -134,6 +139,7 @@ const ItemDetail = styled.p`
 const Rightmark = styled.img`
   width: 20px;
   margin-right: 20px;
+  flex: 1;
 `;
 
 const SmallDetail = styled.h3``;

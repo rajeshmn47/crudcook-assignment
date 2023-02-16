@@ -24,7 +24,7 @@ const IconsImg = styled.div`
 const Title = styled.h3`
   font-family: "Poppins";
   font-style: normal;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 44px;
   line-height: 28px;
 
