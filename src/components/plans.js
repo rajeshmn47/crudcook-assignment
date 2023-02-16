@@ -120,7 +120,9 @@ const Item = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 5px 20px;
+  padding: 5px 50px;
+  margin:0 auto;
+  width:100%;
 `;
 
 const ItemDetail = styled.p`
@@ -132,14 +134,15 @@ const ItemDetail = styled.p`
   text-align: left;
   /* identical to box height */
   letter-spacing: -0.025em;
-
+  width: 100%;
   color: #3e3e3e;
+  align-self:left;
 `;
 
 const Rightmark = styled.img`
   width: 20px;
   margin-right: 20px;
-  flex: 1;
+  float:left;
 `;
 
 const SmallDetail = styled.h3``;
