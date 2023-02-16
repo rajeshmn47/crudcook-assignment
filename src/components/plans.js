@@ -45,7 +45,7 @@ const Data = styled.div`
   width: 300px;
   padding: 10px 25px;
   min-height: 130px;
-  height: 700px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
